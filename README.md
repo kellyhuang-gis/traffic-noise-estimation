@@ -3,3 +3,6 @@ we propose a computational framework to estimate traffic noise using street view
 ## Eequirements
 The python version used was **Python 3.9.7**, The requirements to execute the code is in the file **requirements.txt**
 ## Files Description
+(1)CDBSV  
+CDBSV contains some Street View Images of Chengdu city here used for demonstration  
+    ```imgs_root = "./CDBSV"  #load street imagery that needs noise prediction```  
