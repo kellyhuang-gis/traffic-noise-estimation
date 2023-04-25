@@ -4,13 +4,13 @@ we propose a computational framework to estimate traffic noise using street view
 ## Eequirements
 The python version used was **Python 3.9.7**, The requirements to execute the code is in the file **requirements.txt**
 ## Files Description  
-The core of the program lies in the two python scripts:  
+### The core of the program lies in the two python scripts:  
 **(1)noise_estimation.py**  
 an end-to-end program for traffic noise estimation, the input are street view images and the output are sound perception in decibel levels  
 **(2)cnn_model.py**  
 stores the architecture of the cnn model
     ```from cnn_model import resnet34```   
-other files:  
+### other files:  
 **CDBSV**   
 contains some Street View Images of Chengdu city obtained through Baidu Map API, which were utilized to showcase the functionality of the code   
     ```imgs_root = "./CDBSV"  #load street imagery that requires noise prediction```   
