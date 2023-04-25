@@ -10,7 +10,7 @@ an end-to-end program for traffic noise estimation, the input are street view im
 **(2)cnn_model.py**  
 stores the architecture of the cnn model
     ```from cnn_model import resnet34```   
-### other files:  
+### Other files:  
 **CDBSV**   
 contains some Street View Images of Chengdu city obtained through Baidu Map API, which were utilized to showcase the functionality of the code   
     ```imgs_root = "./CDBSV"  #load street imagery that requires noise prediction```   
@@ -23,3 +23,5 @@ a convolutional neural network(Resnet) was trained based on the PyTorch deep lea
 **NoiseModel.m**  
 the regression algorithms were applied to compute the estimated noise values  
     ```RF = joblib.load("NoiseModel.m")  # traffic noise value estimation```  
+**result.xlsx**  
+The ultimate outcome encompasses the output probability vector of the CNN, the estimated traffic noise value(quantified in decibels), as well as the identifier for the corresponding street view image  
