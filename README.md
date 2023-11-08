@@ -1,6 +1,6 @@
 # traffic-noise-estimation
 Code associate to the manuscript "Estimating urban noise along road network from street view imagery."  
-A computational framework to estimate traffic noise using street view images(SVIs) and deep learning approaches based on real-world measurement. The proposed model can achieve end-to-end output from SVIs to road traffic noise (sound perception in decibel levels)  
+A computational framework to estimate traffic noise using street view images (SVIs) and deep learning approaches based on real-world measurement. The proposed model can achieve end-to-end output from SVIs to road traffic noise (sound perception in decibel levels)  
 ## Eequirements
 The python version used was **Python 3.9.7**, The requirements to execute the code is in the file **requirements.txt**
 ## Files Description  
