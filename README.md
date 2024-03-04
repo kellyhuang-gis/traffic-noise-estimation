@@ -1,13 +1,13 @@
 # traffic-noise-estimation
 Code associate to the manuscript "Estimating urban noise along road network from street view imagery."  
 
-A computational framework to estimate traffic noise using street view images (SVIs) and deep learning approaches based on real-world measurement. The proposed model can achieve end-to-end output from SVIs to road traffic noise (sound perception in decibel levels).      
+A computational framework to estimate traffic noise using street view images (SVIs) and deep learning approaches based on real-world measurement. The proposed model can achieve end-to-end output from SVIs to road traffic noise (sound perception in decibel levels).       
 
-The present tool can provide a “snapshot” of the spatial distribution pattern of road traffic noise at the urban level in Chengdu. Nonetheless, it is crucial to acknowledge that the temporal dynamics of noise have not been taken into account in this stage, which constitutes our ongoing research endeavor, also, we are trying to improve the adaptability of the estimation model to multiple cities and its performance. Currently, we have validated the model using on-site measurement data collected in Wuhan City, with a calculated Mean Absolute Error (MAE) result of 4.74.         
-## Eequirements 
+The present tool can provide a “snapshot” of the spatial distribution pattern of road traffic noise at the urban level in Chengdu. Nonetheless, it is crucial to acknowledge that the temporal dynamics of noise have not been taken into account in this stage, which constitutes our ongoing research endeavor, also, we are trying to improve the adaptability of the estimation model to multiple cities and its performance. Currently, we have validated the model using on-site measurement data collected in Wuhan City, with a calculated Mean Absolute Error (MAE) result of 4.74.          
+## Requirements  
 The python version used was **Python 3.9.7**, The requirements to execute the code is in the file **requirements.txt** 
-## Files Description  
-### The core of the program lies in the two python scripts:  
+## Files Description   
+### The core of the program lies in the two python scripts:   
 **(1)noise_estimation.py**  
 an end-to-end program for traffic noise estimation, the input are street view images and the output are sound perception in decibel levels  
 **(2)cnn_model.py**  
