@@ -23,7 +23,7 @@ The category label of the cnn model, in our work, we used the classification-the
 **cnn_best.pth**   
 a convolutional neural network(Resnet) was trained based on the PyTorch deep learning framework to learn the noise patterns of the road environment and the .pth file is the weight of our trained Resnet network  
     ```weights_path = "./cnn_best.pth"  #Load cnn weights```   
-**NoiseModel.pkl/NoiseModel.m**    
+**[NoiseModel.pkl](https://github.com/kellyhuang-gis/noise_model/tree/master)/NoiseModel.m**   
 the regression algorithms were applied to compute the estimated noise values    
     ```RF = joblib.load("NoiseModel.pkl")/RF = joblib.load("NoiseModel.m")  # traffic noise value estimation```      
 **result.xlsx**  
