@@ -5,7 +5,7 @@ A computational framework to estimate traffic noise using street view images (SV
 
 The present tool can provide a “snapshot” of the spatial distribution pattern of road traffic noise at the urban level in Chengdu. Nonetheless, it is crucial to acknowledge that the temporal dynamics of noise have not been taken into account in this stage, which constitutes our ongoing research endeavor, also, we are trying to improve the adaptability of the estimation model to multiple cities and its performance. Currently, we have validated the model using on-site measurement data collected in Wuhan City, with a calculated Mean Absolute Error (MAE) result of 4.74.    
 
---update--
+--update--    
 Building upon this work, we further developed [**a machine learning approach to noise estimation**](https://github.com/kellyhuang-gis/Noise-Estimation-Model-for-Wuhan) (MAE = 2.00, RMSE = 2.70, and R² = 0.71), collecting on-site data and conducting model training and prediction in Wuchang District, Wuhan.      
 
 ## Requirements  
